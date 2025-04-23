@@ -21,7 +21,8 @@ export function AuthForm({
           htmlFor="email"
           className="text-zinc-600 font-normal dark:text-zinc-400"
         >
-          Email Address
+          {/* Email Address */}
+          Correo Electrónico
         </Label>
 
         <Input
@@ -29,7 +30,8 @@ export function AuthForm({
           name="email"
           className="bg-muted text-md md:text-sm"
           type="email"
-          placeholder="user@acme.com"
+          // placeholder="user@acme.com"
+          placeholder="usuario@acme.com"
           autoComplete="email"
           required
           autoFocus
@@ -42,7 +44,8 @@ export function AuthForm({
           htmlFor="password"
           className="text-zinc-600 font-normal dark:text-zinc-400"
         >
-          Password
+          {/* Password */}
+          Contraseña
         </Label>
 
         <Input
